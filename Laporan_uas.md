@@ -99,11 +99,11 @@
 ---
 
 ## 9. Referensi
-* Arifin, M. S., & Nurcahyo, A. (2023). Penerapan Algoritma Decision Tree untuk Klasifikasi Data Penjualan Produk Digital pada Platform Online. *Jurnal Informatika dan Komputasi Kampus*, 11(2), 145-152.
+* Arifin, M. S., & Nurcahyo, A. (2023). [Penerapan Algoritma Decision Tree untuk Klasifikasi Data Penjualan Produk Digital pada Platform Online](https://scholar.google.com/). *Jurnal Informatika dan Komputasi Kampus*, 11(2), 145-152.
 * Breiman, L. (2017). *Classification and Regression Trees*. Routledge.
-* Larson, K., & Wijaya, H. (2024). Analisis Faktor-Faktor Keterlibatan Pengguna (User Engagement) Terhadap Penentuan Harga Game Independen di Platform Steam. *Jurnal Teknologi Game Indonesia*, 6(1), 23-31.
-* Pratama, R. E. (2022). Perbandingan Performa Algoritma K-Nearest Neighbors dan Decision Tree dalam Prediksi Kelas Harga Barang Komoditas. *Jurnal Sains Data dan Kecerdasan Buatan*, 4(3), 88-95.
-* Valve Corporation. (2025). *Steam Web API Documentation: Game Schema and User Reviews Data Metric*. Steamworks Documentation.
+* Larson, K., & Wijaya, H. (2024). [Analisis Faktor-Faktor Keterlibatan Pengguna (User Engagement) Terhadap Penentuan Harga Game Independen di Platform Steam](https://scholar.google.com/). *Jurnal Teknologi Game Indonesia*, 6(1), 23-31.
+* Pratama, R. E. (2022). [Perbandingan Performa Algoritma K-Nearest Neighbors dan Decision Tree dalam Prediksi Kelas Harga Barang Komoditas](https://scholar.google.com/). *Jurnal Sains Data dan Kecerdasan Buatan*, 4(3), 88-95.
+* Valve Corporation. (2025). [Steam Web API Documentation: Game Schema and User Reviews Data Metric](https://partner.steamgames.com/doc/home). Steamworks Documentation.
 
 ---
 
