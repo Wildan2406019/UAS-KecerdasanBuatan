@@ -70,8 +70,9 @@
   p_model_dt.fit(X_train, y_train)
   p_model_knn.fit(X_train, y_train)
 
-  * **Perbandingan Model:** Bedanya kalau decision tree itu memotong data secara berurutan lewat percabangan kondisi, sedangkan kalau knn bakal nebak data baru berdasarkan suara mayoritas dari kelas 5 tetangga terdekatnya.
-* **Visualisasi Model:** Kedalaman struktur pohon keputusannya sengaja saya batesin cuma sampai level 5 aja (max_depth=5) biar gak overfit.
+  Perbandingan Model: Bedanya kalau decision tree itu memotong data secara berurutan lewat percabangan kondisi, sedangkan kalau knn bakal nebak data baru berdasarkan suara mayoritas dari kelas 5 tetangga terdekatnya.
+
+Visualisasi Model: Kedalaman struktur pohon keputusannya sengaja saya batesin cuma sampai level 5 aja (max_depth=5) biar gak overfit, dan alur percabangannya bisa digambarkan secara bertingkat mulai dari kondisi akar fitur (root node) sampai menghasilkan keputusan kelas harga di bagian ujung daunnya (leaf node).
 
 ---
 
