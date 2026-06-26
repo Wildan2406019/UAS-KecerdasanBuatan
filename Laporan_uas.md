@@ -38,11 +38,11 @@
 ## 4. Exploratory Data Analysis (EDA)
 * **Visualisasi Distribusi Data:**
   Pas saya cek pakai grafik bar chart buat kolom price_class, kelihatan kalau data game indie paling banyak numpuk di kelas harga 1 (Medium) yang jumlahnya sampai 1500 game. Terus buat kelas harga 0 (Cheap) ada sekitar 450 data, dan sisanya paling sedikit ada di kelas harga 2 (Premium).
-  ![Distribusi Kelas Harga](data/grafik_distribusi.png)
+  ![Distribusi Kelas Harga](grafik_distribusi.png)
 
 * **Analisis Korelasi Antar Fitur:**
   Berdasarkan gambar heatmap korelasi, fitur positive_reviews punya pengaruh paling gede ke variabel price_class dengan nilai korelasi sekitar 0.59. Di posisi kedua ada fitur achievements nilainya 0.34, terus average_playtime dapet nilai 0.24.
-  ![Matriks Korelasi](data/heatmap_korelasi.png)
+  ![Matriks Korelasi](heatmap_korelasi.png)
 
 * **Deteksi Data Tidak Seimbang (Imbalanced Classes):**
   Kalau dilihat dari grafik countplot-nya emang kelas 1 agak dominan dibanding kelas lain. Tapi sebaran data di kelas 0 sama 2 masih termasuk aman dan representatif kok buat dilatih sama model.
