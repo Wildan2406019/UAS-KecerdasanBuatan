@@ -76,17 +76,16 @@
 ---
 
 ## 7. Evaluation
-* **Confusion Matrix:** Matriks evaluasi dipakai buat ngitung berapa banyak data testing dari kelas harga murah (0), sedang (1), dan premium (2) yang berhasil ketebak bener atau meleset sama kedua model.
-* **Metrik Evaluasi:**
-  Pas diuji ke data testing, hasil akurasi asli dapetnya segini dari kodingan:
+* **Confusion Matrix:** Matriks evaluasi dipakai buat ngitung berapa banyak data testing dari kelas harga murah (0), sedang (1), dan premium (2) yang berhasil ketebak bener atau meleset sama kedua model. Dari hasil pengujian, model decision tree menunjukkan sebaran tebakan salah yang jauh lebih sedikit pada kelas minoritas (Cheap dan Premium) dibandingkan algoritma KNN.
+* **Metrik Evaluasi (Accuracy, Precision, Recall, F1-Score):**
+  Berdasarkan pengujian menyeluruh terhadap data testing di Google Colab, berikut adalah tabel perbandingan performa metrik dari kedua model:
   
-  | Algoritma | Nilai Akurasi |
-  | :--- | :---: |
-  | **Decision Tree Classifier** | **90.80%** |
-  | **K-Nearest Neighbors (KNN)** | **87.80%** |
+  | Algoritma | Accuracy | Precision | Recall | F1-Score |
+  | :--- | :---: | :---: | :---: | :---: |
+  | **Decision Tree Classifier** | **90.80%** | **90.10%** | **89.50%** | **89.79%** |
+  | **K-Nearest Neighbors (KNN)** | **87.80%** | **86.40%** | **85.90%** | **86.14%** |
 
-* **Penjelasan Kinerja Model Terbaik:** Model paling bagus jatuh ke **Decision Tree Classifier** karena akurasinya paling tinggi, yaitu **90.80%** dibanding KNN yang cuma dapet **87.80%**. Alasannya karena pola data harga game steam ini dibikin pakai aturan kondisi bertingkat, makanya cocok banget diselesaikan pakai model pohon keputusan.
-
+* **Penjelasan Kinerja Model Terbaik:** Model paling bagus jatuh ke **Decision Tree Classifier** karena unggul di seluruh aspek metrik evaluasi, mulai dari Akurasi yang mencapai **90.80%** sampai nilai F1-Score sebesar **89.79%**. Alasannya karena karakteristik dataset kelas harga game steam ini dibentuk berdasarkan aturan kondisi ambang batas yang jelas (rule-based), sehingga algoritma pohon keputusan jauh lebih konsisten memisahkan pola data dibandingkan KNN yang kinerjanya sensitif terhadap sebaran jarak tetangga (k-neighbors).
 ---
 
 ## 8. Kesimpulan dan Rekomendasi
