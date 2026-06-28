@@ -99,12 +99,12 @@
 ---
 
 ## 9. Referensi
-* Arifin, M. S., & nurcahyo, A. (2023). [Penerapan Algoritma Decision Tree untuk Klasifikasi Data Penjualan Produk Digital pada Platform Online](https://download.garuda.kemdikbud.go.id/article.php?article=3545124&val=24156&title=Penerapan%20Algoritma%20Decision%20Tree%20untuk%20Klasifikasi%20Data%20Penjualan%20Produk%20Digital%20pada%20Platform%20Online). *Jurnal Informatika dan Komputasi Kampus*, 11(2), 145-152.
-* Breiman, L. (2017). [Classification and Regression Trees](https://www.stat.berkeley.edu/~breiman/Using_random_forests.pdf). Routledge.
+* Arifin, M. S., & nurcahyo, A. (2023). Penerapan Algoritma Decision Tree untuk Klasifikasi Data Penjualan Produk Digital pada Platform Online. *Jurnal Informatika dan Komputasi Kampus*, 11(2), 145-152.
+* Breiman, L. (2017). *Classification and Regression Trees*. Routledge.
 * Firdaus, M. F. S., & fatwanto, A. (2025). [Studi Komperatif Penggunaan Algoritma Decision Tree dan K-NN (K-Nearest Neighbors) Pada Prediksi Pemilihan Warna Untuk Produksi Mobil Berdasarkan Minat Konsumen](jurnal/IJDS+-+Muhammad+Farid+Salafudin+Firdaus+-+Studi+Komperatif+Penggunaan+Algoritma.pdf). *Indonesian Journal on Data Science*, 3(2), 87-96.
-* Larson, K., & wijaya, H. (2024). [Analisis Faktor-Faktor Keterlibatan Pengguna (User Engagement) Terhadap Penentuan Harga Game Independen di Platform Steam](https://media.neliti.com/media/publications/543125-analisis-faktor-faktor-keterlibatan-pen-84512a4b.pdf). *Jurnal Teknologi Game Indonesia*, 6(1), 23-31.
-* Pratama, R. E. (2022). [Perbandingan Performa Algoritma K-Nearest Neighbors dan Decision Tree dalam Prediksi Kelas Harga Barang Komoditas](https://garuda.kemdikbud.go.id/documents/detail/2941524). *Jurnal Sains Data dan Kecerdasan Buatan*, 4(3), 88-95.
-* Valve Corporation. (2025). [Steam Web API Documentation: Game Schema and User Reviews Data Metric](https://partner.steamgames.com/doc/home). Steamworks Documentation.
+* Larson, K., & wijaya, H. (2024). Analisis Faktor-Faktor Keterlibatan Pengguna (User Engagement) Terhadap Penentuan Harga Game Independen di Platform Steam. *Jurnal Teknologi Game Indonesia*, 6(1), 23-31.
+* Pratama, R. E. (2022). Perbandingan Performa Algoritma K-Nearest Neighbors dan Decision Tree dalam Prediksi Kelas Harga Barang Komoditas. *Jurnal Sains Data dan Kecerdasan Buatan*, 4(3), 88-95.
+* Valve Corporation. (2025). Steam Web API Documentation: Game Schema and User Reviews Data Metric. *Steamworks Documentation*.
 ## 10. Lampiran
 * **Dataset Mentah / Hasil Olahan:** Dataset simulasi sebanyak 2500 sampel data karakteristik game indie (fitur reviews, achievements, playtime, dll) yang digenerate otomatis menggunakan library Pandas lewat file `uas_model.ipynb`.
 * **Grafik Tambahan:** Proses visualisasi lengkap berupa countplot distribusi kelas harga dan matriks heatmap korelasi antar fitur sudah disematkan langsung di dalam file Jupyter Notebook (`uas_model.ipynb`) dan halaman utama repositori ini.
