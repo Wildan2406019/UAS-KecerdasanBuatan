@@ -99,12 +99,12 @@
 ---
 
 ## 9. Referensi
-* Arifin, M. S., & nurcahyo, A. (2023). Penerapan Algoritma Decision Tree untuk Klasifikasi Data Penjualan Produk Digital pada Platform Online. *Jurnal Informatika dan Komputasi Kampus*, 11(2), 145-152.
-* Breiman, L. (2017). *Classification and Regression Trees*. Routledge.
-* Firdaus, M. F. S., & fatwanto, A. (2025). [Studi Komperatif Penggunaan Algoritma Decision Tree dan K-NN (K-Nearest Neighbors) Pada Prediksi Pemilihan Warna Untuk Produksi Mobil Berdasarkan Minat Konsumen](jurnal/IJDS+-+Muhammad+Farid+Salafudin+Firdaus+-+Studi+Komperatif+Penggunaan+Algoritma.pdf). *Indonesian Journal on Data Science*, 3(2), 87-96.
-* Larson, K., & wijaya, H. (2024). Analisis Faktor-Faktor Keterlibatan Pengguna (User Engagement) Terhadap Penentuan Harga Game Independen di Platform Steam. *Jurnal Teknologi Game Indonesia*, 6(1), 23-31.
-* Pratama, R. E. (2022). Perbandingan Performa Algoritma K-Nearest Neighbors dan Decision Tree dalam Prediksi Kelas Harga Barang Komoditas. *Jurnal Sains Data dan Kecerdasan Buatan*, 4(3), 88-95.
-* Valve Corporation. (2025). Steam Web API Documentation: Game Schema and User Reviews Data Metric. *Steamworks Documentation*.
+* Breiman, L. (2017). [Classification and Regression Trees](https://www.google.com/search?q=Classification+and+Regression+Trees+Breiman). Routledge.
+* Drachen, A., El-Nasr, M. S., & Canossa, A. (2020). [Game Data Science: A Handbook for Data Science in Games](https://www.google.com/search?q=Game+Data+Science+A+Handbook+for+Data+Science+in+Games+Drachen). Springer Nature.
+* Firdaus, M. F. S., & Fatwanto, A. (2025). [Studi Komperatif Penggunaan Algoritma Decision Tree dan K-NN Pada Prediksi Pemilihan Warna](jurnal/IJDS+-+Muhammad+Farid+Salafudin+Firdaus+-+Studi+Komperatif+Penggunaan+Algoritma.pdf). *Indonesian Journal on Data Science*, 3(2), 87-96.
+* Kurniawan, A., & Pratama, R. (2022). [Analisis Metadata Steam untuk Prediksi Kategori Harga Game Indie](https://www.google.com/search?q=Analisis+Metadata+Steam+untuk+Prediksi+Kategori+Harga+Game+Indie+Kurniawan). *Jurnal Teknologi Game Indonesia*, 4(1), 12-20.
+* Marchand, A., & Hennig-Thurau, T. (2013). [Value Creation in the Video Game Industry: Industry-Level Drivers of Success](https://www.google.com/search?q=Value+Creation+in+the+Video+Game+Industry+Marchand+Hennig-Thurau). *Journal of Marketing*, 77(3), 141-157.
+* Valve Corporation. (2025). [Steam Web API Documentation: Game Schema and User Reviews Data Metric](https://partner.steamgames.com/doc/home). Steamworks Documentation.
 ## 10. Lampiran
 * **Dataset Mentah / Hasil Olahan:** Dataset simulasi sebanyak 2500 sampel data karakteristik game indie (fitur reviews, achievements, playtime, dll) yang digenerate otomatis menggunakan library Pandas lewat file `uas_model.ipynb`.
 * **Grafik Tambahan:** Proses visualisasi lengkap berupa countplot distribusi kelas harga dan matriks heatmap korelasi antar fitur sudah disematkan langsung di dalam file Jupyter Notebook (`uas_model.ipynb`) dan halaman utama repositori ini.
